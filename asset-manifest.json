@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ckbeg.github.io/movies-project/static/css/main.954e7325.css",
+    "main.js": "/ckbeg.github.io/movies-project/static/js/main.b003d56b.js",
+    "index.html": "/ckbeg.github.io/movies-project/index.html",
+    "main.954e7325.css.map": "/ckbeg.github.io/movies-project/static/css/main.954e7325.css.map",
+    "main.b003d56b.js.map": "/ckbeg.github.io/movies-project/static/js/main.b003d56b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.954e7325.css",
+    "static/js/main.b003d56b.js"
+  ]
+}
