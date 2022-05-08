@@ -1,13 +1,14 @@
 import { Movie } from "./Movie";
+import { Preloader } from "./Preloader";
 
 function Movies (props){
-    const {movies} = props
+    const {movies = []} = props
 
     return (
         <div className="movies">
-            {movies.map( movie => {
+            {movies.length ? movies.map( movie => {
                 return <Movie key={movie.imdbID} {...movie}/>
-            })}
+            }): <h4>Not found</h4>}
         </div>
     )
 }

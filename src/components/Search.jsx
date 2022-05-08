@@ -41,7 +41,7 @@ class Search extends Component{
                 <div onChange={this.onChangeValue}>
                     <p>
                         <label>
-                            <input name="movieType" type="radio" value=''/>
+                            <input name="movieType" type="radio" value='all'/>
                             <span>All</span>
                         </label>
                     {/* </p>
